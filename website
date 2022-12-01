@@ -6,64 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>JOAD</title>
 </head>
-<style>
-    body {
-        background: black;
-        color: white;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
 
-    /**Navigation Bar**/
-    .navBar {
-        background-color: aliceblue;
-        overflow: hidden;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 2px;
-        padding: 5px;
-    }
-    .navBar p {
-        color: black;
-        text-align:left;
-        font-size: 1.5em;
-        padding-left: 20px;
-    }
-    /*Link Styles*/
-    .navBar a {
-        display: block;
-        float: right;
-        color:blueviolet;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 0.9em;
-    }
-    /*Hovering over pages*/
-    .navBar a:hover {
-        color:black;
-    }
-    /*Current Page On*/
-    .navBar a.active {
-        color: grey;
-    }
-    /*Hamburger Icon ByeBye*/
-    .navBar .icon {
-        display: none;
-    }
-    /*Be Seen My Hamburger*/
-    @media screen and (max-width: 800px) {
-        .navBar a:not(:last-child){display: none;}
-        .navBar a.icon {
-            float: right;
-            display: block;
-        }
-        .navBar.responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-    }
-</style>
 <body>
     <h1>Home</h1>
 <!--Navigation Bar-->
