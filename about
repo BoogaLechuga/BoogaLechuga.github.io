@@ -65,13 +65,13 @@
     }
 </style>
 <body>
-    <h1>Home</h1>
+    <h1>About</h1>
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
         <p href="website">JOAD Brazos Archery
-        <a class="active" href="website">Home</a>
-        <a href="about">About Us</a>
+        <a href="website">Home</a>
+        <a class="active" href="about">About Us</a>
         <a href="contact">Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
