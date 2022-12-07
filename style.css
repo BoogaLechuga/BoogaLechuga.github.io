@@ -1,13 +1,13 @@
 
     body {
-        background: silver;
+        background-color: ghostwhite;
         color: black;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    /**Navigation Bar**/
+/**Navigation Bar**/
     .navBar {
-        background-color: aliceblue;
+        background-color: gainsboro;/*aliceblue*/
         overflow: hidden;
         position: -webkit-sticky;
         position: sticky;
@@ -19,20 +19,22 @@
         text-align:left;
         font-size: 1.5em;
         padding-left: 20px;
+        font-family: 'Noto Sans', sans-serif;
     }
     /*Link Styles*/
     .navBar a {
         display: block;
         float: right;
-        color:blueviolet;
+        color:blue;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 0.9em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     /*Hovering over pages*/
     .navBar a:hover {
-        color:black;
+        color:navy;
     }
     /*Current Page On*/
     .navBar a.active {
