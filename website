@@ -7,9 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
     <title>JOAD</title>
 </head>
+<style>
+    #id {
+        color: red;
+    }
+</style>
 
 <body>
-    <h1>Home</h1>
+    <h1 id="title">JOAD Brazos Archery</h1>
     <img src="">
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
