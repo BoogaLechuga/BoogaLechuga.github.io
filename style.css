@@ -25,7 +25,7 @@
     .navBar a {
         display: block;
         float: right;
-        color:blue;
+        color:#201664;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -34,7 +34,7 @@
     }
     /*Hovering over pages*/
     .navBar a:hover {
-        color:navy;
+        color:#3F88C5;
     }
     /*Current Page On*/
     .navBar a.active {

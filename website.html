@@ -8,14 +8,58 @@
     <title>JOAD</title>
 </head>
 <style>
-    #id {
-        color: red;
+    #title {
+        color: #FDE74C;
+        text-shadow: 1.5px 1.5px 2px #831816;
+        font-size: 100px;
+        text-align: center;
+        padding-top: 150px;
+    }
+    #welcome {
+        font-size: 60px;
+        text-align: center;
+    }
+    #arrowWall {
+        height: 300px;
+        float: right;
+        margin-right: 10%;
+        position: absolute;
+    }
+
+    .parallax {
+        background-image: url("fillerImg.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10px;
+    }
+
+    .learn {
+        float: left;
+        width: 50%;
+        /*border: 3px solid #831816;*/
+        text-align: center;
+    }
+
+    body {
+        float: none;
+        width: auto;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 25px;
     }
 </style>
 
 <body>
-    <h1 id="title">JOAD Brazos Archery</h1>
-    <img src="">
+    
+    <div class="parallax"><h1 id="title">JOAD Brazos Archery</h1></div>
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
@@ -41,5 +85,18 @@
         }
     </script>
 
+    <h2 id="welcome">Welcome</h2>
+
+    <div class="learn">
+        <h3>Give your child a chance to learn archery!</h3>
+        <p>Practice & Coaching avalible for children between the ages 7 to 18</p>
+    </div>
+
+    <img id="arrowWall" src="IMG20221209183955.jpg">
+
+    <p>Filler Text</p>
+    <p>Filler Text</p>
+    <p>Filler Text</p>
+    <p>Filler Text</p>
 
 </body>
