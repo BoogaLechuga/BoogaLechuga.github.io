@@ -11,13 +11,23 @@
     body {
         color: navy;
     }
+
+    .mainImg {
+        background-image: url("joadIMG.jpg");
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        left: 0%;
+    }
 </style>
 <body>
     <h1>About</h1>
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
-        <p href="website.html">JOAD Brazos Archery
+        <p href="website.html">BV Archers
         <a href="location">Location</a>
         <a href="schedule">Schedule</a>
         <a href="contact">Contact Us</a>
@@ -39,5 +49,37 @@
         }
     </script>
 
+    <div class="mainImg"></div>
 
+
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
 </body>

@@ -9,11 +9,13 @@
 </head>
 <style>
     #title {
-        color: #FDE74C;
-        text-shadow: 1.5px 1.5px 2px #831816;
+        color: #ffe100;
+        text-shadow: 2px 2px #7e0b09;
         font-size: 100px;
         text-align: center;
         padding-top: 150px;
+        
+        opacity: 1;
     }
     #welcome {
         font-size: 60px;
@@ -22,8 +24,10 @@
     #arrowWall {
         height: 300px;
         float: right;
-        margin-right: 10%;
-        position: absolute;
+        margin-right: 12%;
+        position: static;
+        /*max-width: 50%;*/
+        border: 3px solid #831816;
     }
 
     .parallax {
@@ -34,18 +38,29 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 10px;
+        opacity: 0.7;
     }
 
     .learn {
         float: left;
         width: 50%;
-        /*border: 3px solid #831816;*/
+        border: 3px solid #831816;
         text-align: center;
+    }
+
+    .about {
+        width: 100%;
+        float: left;
+        text-align: center;
+        border: 3px solid #831816;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     body {
         float: none;
         width: auto;
+        position: static;
     }
 
     h3 {
@@ -59,11 +74,11 @@
 
 <body>
     
-    <div class="parallax"><h1 id="title">JOAD Brazos Archery</h1></div>
+    <div class="parallax"><h1 id="title">Brazos Valley Archers</h1></div>
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
-        <p href="website">JOAD Brazos Archery
+        <p href="website">BV Archers
         <a href="location">Location</a>
         <a href="schedule">Schedule</a>
         <a href="contact">Contact Us</a>
@@ -92,11 +107,26 @@
         <p>Practice & Coaching avalible for children between the ages 7 to 18</p>
     </div>
 
-    <img id="arrowWall" src="IMG20221209183955.jpg">
+    <img id="arrowWall" src="archerHold.jpg">
 
-    <p>Filler Text</p>
-    <p>Filler Text</p>
-    <p>Filler Text</p>
-    <p>Filler Text</p>
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
 
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
+
+    <div class="about">
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+        <p>Filler Text</p>
+    </div>
 </body>

@@ -9,10 +9,11 @@
     .navBar {
         background-color: gainsboro;/*aliceblue*/
         overflow: hidden;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 2px;
-        padding: 5px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        /*padding: 5px;*/
     }
     .navBar p {
         color: black;

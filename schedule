@@ -14,7 +14,7 @@
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
-        <p href="website.html">JOAD Brazos Archery
+        <p href="website.html">BV Archers
         <a href="location">Location</a>
         <a class="active" href="schedule">Schedule</a>
         <a href="contact">Contact Us</a>
