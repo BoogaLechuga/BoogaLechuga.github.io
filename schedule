@@ -9,8 +9,6 @@
 </head>
 
 <body>
-    <h1>Schedule</h1>
-    <img src="">
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">
@@ -36,5 +34,6 @@
         }
     </script>
 
+    <h1>Schedule</h1>
 
 </body>

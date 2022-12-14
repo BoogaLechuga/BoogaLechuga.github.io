@@ -8,9 +8,6 @@
     <title>Contact Us</title>
 </head>
 <style>
-    body {
-        color:firebrick;
-    }
 
     .card {
         border: 2px solid ghostwhite;
