@@ -18,6 +18,7 @@
         left: 0%;
     }
 
+    /*Adds transparent background thingy*/
     .background {
         margin: 10%;
         padding: 15px; 
@@ -29,12 +30,14 @@
         /* top: 0; */
     }
 
+    /*The Schedule Format (Mon- Sun)*/
     table {
         text-align: center;
         width: 50%;
         margin-left: 20%;
     }
 
+    /*two columns (indiv. & group)*/
     .column {
         float: left;
         width: 50%;
@@ -48,7 +51,7 @@
         clear: both;
     }
 
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+    /* Stacks the column if too small */
     @media screen and (max-width: 600px) {
         .column {
             width: 100%;
@@ -58,6 +61,7 @@
 </style>
 <body>
 
+    <!--Transp Block 1-->
     <div class="background">
         <h1>Schedule</h1>
         <div class="times">
@@ -104,10 +108,13 @@
             </div>
         </div>
     </div>
+
+    <!--Transp Block 2-->
     <div class="background">
         <h1>Important Dates</h1>
         <p>N/A</p>
     </div>
+    
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">

@@ -12,6 +12,7 @@
         color: navy;
     }
 
+    /*Banner Image*/
     .mainImg {
         background-image: url("joadIMG.jpg");
         min-height: 500px;
@@ -22,6 +23,7 @@
         left: 0%;
     }
 
+    /*All Coach Formatting*/
     .name {
         text-align-last: center;
         color: black;
@@ -30,15 +32,16 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-
+     /*Coach Name Title*/
     .name h1 {
         color: #201664;
     }
-
+     /*Coach Bio*/
     .name p {
         line-height: 1.7;
     }
 
+     /*Coach Img*/
     img {
         border-radius: 50%;
         width: 25%;
@@ -77,8 +80,10 @@
         }
     </script>
 
+    <!--Banner-->
     <div class="mainImg"></div>
 
+    <!--Coach Info/Bio-->
     <img src="squareArrowWall.jpg">
 
     <div class="name">

@@ -1,4 +1,5 @@
 
+    /*Usual/Default Background + Format*/
     body {
         background-color: ghostwhite;
         color: black;
@@ -15,6 +16,7 @@
         right: 0px;
         /*padding: 5px;*/
     }
+    /*The text on the left (BV Archers)*/
     .navBar p {
         color: black;
         text-align:left;
