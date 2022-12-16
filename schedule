@@ -37,11 +37,18 @@
         margin-left: 20%;
     }
 
+
     /*two columns (indiv. & group)*/
     .column {
         float: left;
         width: 50%;
         text-align: center;
+    }
+    th {
+        font-size: 22px;
+    }
+    td {
+        font-size: 18px;
     }
 
     /* Clear floats after the columns */
@@ -58,17 +65,32 @@
             position: static;
         }
     }
+
+    #groupTime {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
 </style>
 <body>
 
     <!--Transp Block 1-->
     <div class="background">
+        
         <h1>Schedule</h1>
+        
         <div class="times">
+            <!--Group Practice-->
             <div class="column">
                 <h2>Group Practice</h2>
-                <p>Fridays @ 6</p>
+                <p id="groupTime">Fridays @ 6</p>
             </div>
+            <!--Individual Practice-->
             <div class="column">
                 <h2>Individual Practice</h2>
                 <table>
@@ -114,7 +136,7 @@
         <h1>Important Dates</h1>
         <p>N/A</p>
     </div>
-    
+
 <!--Navigation Bar-->
     <!--Navigation Bar "Content"-->
     <div class="navBar" id="myNavBar">

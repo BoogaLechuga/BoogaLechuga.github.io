@@ -26,6 +26,9 @@
     }
     /*Link Styles*/
     .navBar a {
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
         display: block;
         float: right;
         color:#201664;
