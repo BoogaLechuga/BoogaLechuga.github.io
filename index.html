@@ -30,11 +30,8 @@
     /*The image next to the text ("Give your...")*/
     #arrowWall {
         height: 300px;
-        float: right;
-        margin-right: 12%;
-        position: static;
-        /*max-width: 50%;
-        border: 3px solid #831816;*/
+        text-align: center;
+        padding-top: 50px;
     }
 
     /*Parallax background on title/top*/
@@ -48,12 +45,31 @@
         padding-top: 10px;
         opacity: 0.7;
     }
-
-    /*Format for the big txt ("Give your...")*/
-    .learn {
-        float: left;
-        width: 50%;
+    
+    .line {
+    	float: left;
+    	width: 50%;
+    	padding: 10px;    	
+    }
+    
+    .row {
+    	display: flex;
+    }
+    .row:after {
+    	content: " ";
+    	display: table;
+    	clear: both;
+    }
+    
+    /*First Item on the left*/
+    .left {
+        left: 0;
         text-align: center;
+    }
+    
+    /*First Item on the right*/
+    .right {
+        right: 0;
     }
 
     /*'Filler Text' Formatting*/
@@ -65,6 +81,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
 
     body {
         float: none;
@@ -111,16 +128,21 @@
         }
     </script>
 
+<div>
     <h2 id="welcome">Welcome</h2>
 
-    <!--First set of txt about club-->
-    <div class="learn">
-        <h3>Give your child the chance to learn archery!</h3>
-        <p>Practice & Coaching avalible for children between the ages 7 to 18</p>
+    <div class="row">
+		<!--First set of txt about club-->
+		<div class="line">
+		    <h3>Give your child the chance to learn archery!</h3>
+		    <p>Practice & Coaching avalible for children between the ages 7 to 18</p>
+		</div>
+		
+		<div class="line">
+		    <img id="arrowWall" src="archerHold.jpg">
+		</div>
     </div>
-
-    <img id="arrowWall" src="archerHold.jpg">
-
+    
     <!--Other information?-->
     <div class="about">
         <p>Filler Text</p>
@@ -131,5 +153,6 @@
 
     <div class="about">
         <p>Filler Text</p>
+    </div>
     </div>
 </body>
