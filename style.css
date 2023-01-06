@@ -63,3 +63,20 @@
             text-align: left;
         }
     }
+
+    /*The format for the split screen ~Used on img + txt~ */
+    .line {
+    	float: left;
+    	width: 50%;
+    	padding: 10px;  
+        text-align: center; 	
+    }
+    
+    .row {
+    	display: flex;
+    }
+    .row:after {
+    	content: " ";
+    	display: table;
+    	clear: both;
+    }
