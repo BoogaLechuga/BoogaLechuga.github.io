@@ -46,9 +46,12 @@
     }
     th {
         font-size: 22px;
+        /* border-bottom: 3px solid black; */
+        text-decoration: underline;
     }
     td {
         font-size: 18px;
+        padding: 5px;
     }
 
     /* Clear floats after the columns */
@@ -67,7 +70,7 @@
     }
 
     #groupTime {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     h1 {
@@ -75,6 +78,10 @@
     }
     h2 {
         font-size: 30px;
+    }
+
+    #events {
+        font-size: 22px;
     }
 </style>
 <body>
@@ -95,8 +102,8 @@
                 <h2>Individual Practice</h2>
                 <table>
                     <tr>
-                        <th>Day</th>
-                        <th>Hours</th>
+                        <th> Day </th>
+                        <th> Hours </th>
                     </tr>
                     <tr>
                         <td>Monday</td>
@@ -134,7 +141,7 @@
     <!--Transp Block 2-->
     <div class="background">
         <h1>Important Dates</h1>
-        <p>N/A</p>
+        <p id="events">N/A</p>
     </div>
 
 <!--Navigation Bar-->
