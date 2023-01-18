@@ -24,7 +24,7 @@
         background-color: gainsboro;
     }
 
-    /*Card Text Formatting*/
+    /*Card Text Formatting (Little & Big)*/
     .card p {
         font-size: 25px;
     }
@@ -35,6 +35,22 @@
     /*The color to fade thru*/
     @keyframes colorChange {
        0% {
+        background-image: url("fillerImg.jpg");
+       }
+       25% {
+        background-image: url("joadIMG.jpg");
+       }
+       50% {
+        background-image: url("archerRelease.jpg");
+       }
+       75% {
+        background-image: url("squareArrowWall.jpg");
+       }
+       100% {
+        background-image: url("bannerRangePic.jpg");
+       }
+
+        /* 0% {
           background: #FDE74C;
        }
        20% {
@@ -51,7 +67,7 @@
        }
        100% {
           background: #FDE74C;
-       }
+       } */
     }
 
     /*Color Changing Background*/
@@ -59,9 +75,14 @@
         padding-bottom: 100px;
         padding-top: 1px;
         margin-top: 5%;
+        /**/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         /*background-color: #201664;
         background-image: linear-gradient(#3F88C5, #201664, #3F88C5);*/
-        animation: colorChange infinite 50s;
+        animation: colorChange ease-in infinite 20s; /*W/ Colors = 50s*/
+        animation-delay: 0s;
     }
 </style>
 <body>
