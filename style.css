@@ -64,6 +64,10 @@
             display: block;
             text-align: left;
         }
+
+        .parallax {
+            padding-bottom: 50px;
+        }
     }
 
     /*The format for the split screen ~Used on img + txt~ */
