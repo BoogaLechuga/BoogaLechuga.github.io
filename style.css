@@ -53,7 +53,7 @@
         display: none;
     }
     /*Be Seen My Hamburger*/
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         .navBar a:not(:last-child){display: none;}
         .navBar a.icon {
             float: right;
