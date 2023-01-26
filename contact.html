@@ -10,7 +10,7 @@
 <style>
 
     /*Block/Box holding info*/
-    .card {
+    div.card {
         border: 2px solid ghostwhite;
         box-shadow: 0px 0px 4px 1px gainsboro;
         border-radius: 10px;
@@ -21,21 +21,21 @@
         width: 25%;
         text-align: center;
         color: black;
-        background-color: gainsboro;
+        background-color: rgba(220, 220, 220, 0.8);
     }
 
     /*Card Text Formatting (Little & Big)*/
-    .card p {
+    div.card p {
         font-size: 25px;
     }
-    .card h1 {
+    div.card h1 {
         font-size: 35px;
     }
     
     /*The color to fade thru*/
     @keyframes colorChange {
        0% {
-        background-image: url("fillerImg.jpg");
+        background-image: url("joadOntheLineHori.jpg");
        }
        25% {
         background-image: url("joadIMG.jpg");
@@ -47,7 +47,7 @@
         background-image: url("squareArrowWall.jpg");
        }
        100% {
-        background-image: url("bannerRangePic.jpg");
+        background-image: url("joadSisters.jpg");
        }
 
         /* 0% {
@@ -83,7 +83,7 @@
         background-size: cover;
         /*background-color: #201664;
         background-image: linear-gradient(#3F88C5, #201664, #3F88C5);*/
-        animation: colorChange ease-in infinite 20s; /*W/ Colors = 50s*/
+        animation: colorChange ease-in infinite 25s; /*W/ Colors = 50s*/
         animation-delay: 0s;
     }
 </style>
