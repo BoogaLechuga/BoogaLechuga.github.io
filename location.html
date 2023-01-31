@@ -10,13 +10,12 @@
 <style>
     body {
         background-color: ghostwhite;
-        animation: backg 5s ease-in-out infinite;
     }
 
     @keyframes backg {
-        10% {background-color: ghostwhite;}
-        50% {background-color: #FFFFFF;}
-        100% {background-color: ghostwhite;}
+        10% {background-color: ghostwhite;border-color: #eeeeee;}
+        50% {background-color: #eeeeee;border-color: ghostwhite;}
+        100% {background-color: ghostwhite;border-color: #eeeeee;}
     }
 
     h2 {
@@ -28,11 +27,16 @@
     }
 
     #LOA {
-        padding-top: 5%;
-        /* border-style: solid;
+        padding-top: 2%;
+        margin-top: 8%;
+        padding-bottom: 5%;
+        margin-left: 20%;
+        border-style: solid;
+        border-radius: 10% / 50%;
         border-width: 2px;
-        border-color: black; */
-        animation: 15s 1 right;/*https://www.w3schools.com/cssref/css3_pr_opacity.php*/
+        border-color: #eeeeee;
+        /* animation: 15s 1 right;https://www.w3schools.com/cssref/css3_pr_opacity.php */
+        animation: backg 8s ease-in-out infinite;
     }
 
 
@@ -66,7 +70,8 @@
     </script>
 
     <div class="row">
-        <div class="line" id="LOA">
+        <div class="line">
+            <div id="LOA">
             <h2>Live Oak Archery</h2>
             <p>
             <strong>Address:</strong>
@@ -74,6 +79,7 @@
             <br>Bryan, TX 77801
             <br><br>Learn more about Live Oak Archery <strong><a href="https://www.liveoakarchery.com/index.html" target="_blank" title="Live Oak Archery Website">here</a></strong>
             </p>
+            </div>
         </div>
         <div class="line">
             <p id='map'>
