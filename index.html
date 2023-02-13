@@ -92,6 +92,14 @@
         line-height: 150%;
     }
 
+    /* Spacing for the last img txt on the right */
+    #toAbout {
+        padding-top: 20px;
+    }
+    #be4Hr {
+        padding-bottom: 20px;
+    }
+
     /**  Overall Formatting   **/
     body {
         float: none;
@@ -109,6 +117,13 @@
 
     p {
         font-size: 25px;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        padding: 0.5px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 </style>
 
@@ -185,7 +200,9 @@
         <!--Accompanying Image (to right <- )-->
 		<div class="line">
             <h3>Types of Bows:</h3>
-            <p>We cater to compound, recurve, Olympic recurve, barebow, and bow hunter.</p>
+            <p id='be4Hr'>We cater to compound, recurve, Olympic recurve, barebow, and bow hunter.</p>
+            <hr>
+            <p id='toAbout'>Read more about our club <a href="about.html">here</a></p>
 		</div>
     </div>
 
