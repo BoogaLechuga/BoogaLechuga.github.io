@@ -64,6 +64,9 @@
             display: block;
             text-align: left;
         }
+        .navBar {
+            padding-bottom: 10px;
+        }
 
         .parallax {
             padding-bottom: 50px;

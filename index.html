@@ -100,6 +100,14 @@
         padding-bottom: 20px;
     }
 
+    
+    /* Stacks the column if too small = 800 pixels */
+    @media screen and (max-width: 1000px) {
+        #shooter {
+            font-size: 10px;
+        }
+    }
+
     /**  Overall Formatting   **/
     body {
         float: none;
@@ -198,7 +206,7 @@
 		</div>
 		
         <!--Accompanying Image (to right <- )-->
-		<div class="line">
+		<div class="line" id="special">
             <h3>Types of Bows:</h3>
             <p id='be4Hr'>We cater to compound, recurve, Olympic recurve, barebow, and bow hunter.</p>
             <hr>
